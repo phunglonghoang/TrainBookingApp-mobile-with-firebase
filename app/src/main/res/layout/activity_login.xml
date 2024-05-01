@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/train_login">
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="112dp"
+        android:text="Quên mật khẩu?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegister" />
+
+    <Button
+        android:id="@+id/btnLoginAdmin"
+        android:layout_width="337dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#BC6D59"
+        android:text="Login with Admin"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegister" />
+
+    <EditText
+        android:id="@+id/etPassword_Login"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="28dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_lock_person_35"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textColorHint="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail_Login" />
+
+    <EditText
+        android:id="@+id/etEmail_Login"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="28dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textColorHint="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="112dp"
+        android:text="Đăng Nhập"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="337dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#1791E1"
+        android:text="Đăng nhập"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword_Login" />
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="113dp"
+        android:text="Đăng ký tài khoản"
+        android:textAlignment="center"
+        android:textColor="#2B6DA8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_vetau"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:background="#68D8CF">
+
+        <TextView
+            android:id="@+id/txtGiaVe_ItemVeTau"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="1 000 000 đ"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView51" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Giá vé:"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtMaVe_ItemVeTau"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Mã vé"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTenChuyenTau_ItemVeTau" />
+
+        <TextView
+            android:id="@+id/txtLoaiGhe_ItemVeTau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="11dp"
+            android:text="Loại ghế"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtGiaVe_ItemVeTau"
+            app:layout_constraintStart_toEndOf="@+id/txtSoToaTau_ItemVeTau" />
+
+        <TextView
+            android:id="@+id/txtSoToaTau_ItemVeTau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="11dp"
+            android:text="12"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtGiaVe_ItemVeTau"
+            app:layout_constraintStart_toEndOf="@+id/textView46" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="11dp"
+            android:text="Toa số:"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtGiaVe_ItemVeTau"
+            app:layout_constraintStart_toEndOf="@+id/textView42" />
+
+        <TextView
+            android:id="@+id/txtSoGhe_ItemVeTau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="11dp"
+            android:text="T1-12"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtGiaVe_ItemVeTau"
+            app:layout_constraintStart_toEndOf="@+id/textView44" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="11dp"
+            android:text="Số ghế:"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView51"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNgayGioXuatPhat_ItemVeTau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="16-01-2002 21:15"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtLoaiGhe_ItemVeTau"
+            app:layout_constraintStart_toEndOf="@+id/textView42" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Ngày giờ khởi hành:"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtSoGhe_ItemVeTau"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Chuyến tàu:"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTenChuyenTau_ItemVeTau"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Chuyến tàu"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="31dp"
+            android:text="Mã vé:"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView39" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

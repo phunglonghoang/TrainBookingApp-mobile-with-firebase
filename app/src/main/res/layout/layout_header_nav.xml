@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#D1A28F"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/avatar" />
+    <TextView
+        android:id="@+id/txtNameAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/txtEmailAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LapLichChuyenTauActivity"
+    android:background="#53C4E6">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="84dp"
+        android:text="Thông tin chuyến tàu"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="380dp"
+        android:layout_height="555dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/bg_reset_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack_ThemCT">
+
+        <EditText
+            android:id="@+id/etTGDiChuyen_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Thời gian di chuyển"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etGioKhoiHanh_ThemCT" />
+
+        <EditText
+            android:id="@+id/etNgayKhoiHanh_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_edit_calendar"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Chọn ngày khởi hành"
+            android:inputType="none"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etTGDiChuyen_ThemCT" />
+
+        <EditText
+            android:id="@+id/etGioKhoiHanh_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Giờ khởi hành"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etGiaVeGheNgoi_ThemCT" />
+
+        <EditText
+            android:id="@+id/etGiaVeGheNgoi_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Giá vé H2"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etGiaVeGiuongNam_ThemCT" />
+
+        <EditText
+            android:id="@+id/etGiaVeGiuongNam_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Giá vé H1"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etSLGhe_ThemCT" />
+
+        <EditText
+            android:id="@+id/etSLGhe_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Số lượng ghế"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etGaDen_ThemCT" />
+
+        <EditText
+            android:id="@+id/etGaDen_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Ga đến"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etGaDi_ThemCT" />
+
+        <EditText
+            android:id="@+id/etGaDi_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Ga đi"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etTenChuyenTau_ThemCT" />
+
+        <EditText
+            android:id="@+id/etTenChuyenTau_ThemCT"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Tên chuyến tàu"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnLapLichCT"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="#595CF1"
+        android:text="Lập lịch chuyến tàu"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+    <ImageButton
+        android:id="@+id/btnBack_ThemCT"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#53C4E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="370dp"
+    android:layout_height="410dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_dialog_infor_vetau">
+
+    <TextView
+        android:id="@+id/txtNgayGioDatVe_LichSuDatVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="10dp"
+        android:text="16-01-2002 21:15"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewNgayGioDatVe"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail_DialogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/textViewNgayGioDatVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Ngày giờ đặt vé:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail_DialogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/txtEmail_DialogLichSuDatVe"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtHoTen_DialogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Email:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHoTen" />
+
+    <TextView
+        android:id="@+id/txtHoTen_DialogLichSuDatVe"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Họ tên:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTTKH" />
+
+    <TextView
+        android:id="@+id/textViewHoTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Họ tên:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTTKH" />
+
+    <TextView
+        android:id="@+id/textViewTTKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Thông tin khách hàng:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtGiaVe_DiaLogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/txtGiaVe_DiaLogLichSuDatVe"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Giá vé"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLoaiGhe_DialogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/textViewGiaVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Giá vé:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSoGhe" />
+
+    <TextView
+        android:id="@+id/txtLoaiGhe_DialogLichSuDatVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Loại ghế"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNgayGioKhoiHanh_DialogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/txtSoToa_DialogLichSuDatVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="12"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSoToa"
+        app:layout_constraintTop_toBottomOf="@+id/txtNgayGioKhoiHanh_DialogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/textViewSoToa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Toa số:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/txtSoGhe_DialogLichSuDatVe"
+        app:layout_constraintTop_toBottomOf="@+id/txtNgayGioKhoiHanh_DialogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/txtSoGhe_DialogLichSuDatVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="T1-12"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSoGhe"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNgayGioKH" />
+
+    <TextView
+        android:id="@+id/textViewSoGhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Số ghế: "
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNgayGioKH" />
+
+    <TextView
+        android:id="@+id/textViewNgayGioKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Ngày giờ khởi hành:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMaVe_DialogLichSuDatVeTau" />
+
+    <TextView
+        android:id="@+id/txtNgayGioKhoiHanh_DialogLichSuDatVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="16-01-2002 21:15"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewNgayGioKH"
+        app:layout_constraintTop_toBottomOf="@+id/txtMaVe_DialogLichSuDatVeTau" />
+
+    <TextView
+        android:id="@+id/txtMaVe_DialogLichSuDatVeTau"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Mã vé"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTenChuyenTau_DialogLichSuDatVe" />
+
+    <TextView
+        android:id="@+id/textViewMaVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Mã vé:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChuyenTau" />
+
+    <TextView
+        android:id="@+id/txtTenChuyenTau_DialogLichSuDatVe"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Chuyến tàu"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDialogLichSuDatVe" />
+
+    <ImageButton
+        android:id="@+id/btnClose_DialogThanhToan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_dialog_infor_vetau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close" />
+
+    <TextView
+        android:id="@+id/textViewDialogLichSuDatVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="10dp"
+        android:text="Thông tin vé tàu"
+        android:textColor="#1347B7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewChuyenTau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Chuyến tàu:"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDialogLichSuDatVe" />
+
+    <Button
+        android:id="@+id/btnInVe"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Hủy vé"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

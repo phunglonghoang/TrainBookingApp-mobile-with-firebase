@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_tuyenduong"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:backgroundTint="#53C4E6"
+    app:cardCornerRadius="10dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/txtGiaVe_ItemTD"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="1dp"
+            android:text="Giá vé: 0 đ"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/circleImageView_ItemTD"
+            app:layout_constraintTop_toBottomOf="@+id/txtGioKhoiHanh_ItemTD" />
+
+        <TextView
+            android:id="@+id/txtGioKhoiHanh_ItemTD"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="5dp"
+            android:text="21:00"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/circleImageView_ItemTD"
+            app:layout_constraintTop_toBottomOf="@+id/txtGaDi_ItemTD" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView_ItemTD"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/ic_manage_routetrain"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_ItemTD"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="1dp"
+            app:layout_constraintStart_toEndOf="@+id/txtGaDi_ItemTD"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_arrow_right" />
+
+        <TextView
+            android:id="@+id/txtSLGhe_ItemTD"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="5dp"
+            android:text="SL Ghe"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageView_ItemTD"
+            app:layout_constraintTop_toBottomOf="@+id/txtGaDen_ItemTD" />
+
+        <TextView
+            android:id="@+id/txtGaDi_ItemTD"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            android:text="Ga Di"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/circleImageView_ItemTD"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtGaDen_ItemTD"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="20dp"
+            android:text="Ga Den"
+            android:textAlignment="center"
+            android:textColor="#1347B7"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageView_ItemTD"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

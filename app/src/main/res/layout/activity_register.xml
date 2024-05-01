@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/train_login">
+
+    <EditText
+        android:id="@+id/etBirthDay_Register"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:background="#30ffffff"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_edit_calendar"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Date of birth"
+        android:inputType="none"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textColorHint="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName_Register" />
+
+    <EditText
+        android:id="@+id/etName_Register"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_assignment_ind"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:maxLength="100"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textColorHint="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etConfirmPassword_Register" />
+
+    <EditText
+        android:id="@+id/etConfirmPassword_Register"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_lock_person_35"
+        android:ems="10"
+        android:hint="Confirm Pasword"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textColorHint="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword_Register" />
+
+    <EditText
+        android:id="@+id/etPassword_Register"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_lock_person_35"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textColorHint="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail_Register" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="60dp"
+        android:text="Đăng ký tài khoản"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etEmail_Register"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="28dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        android:textAlignment="center"
+        android:textColor="#1347B7"
+        android:textColorHint="#1347B7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="337dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#4C88A3"
+        android:text="Đăng ký"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBirthDay_Register" />
+
+    <ImageButton
+        android:id="@+id/btnBack_Register"
+        android:layout_width="66dp"
+        android:layout_height="51dp"
+        android:background="#5693D5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
